@@ -1,18 +1,17 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: "Abril Fatface", sans-serif;
-    color: black;
+  margin: 0;
+  padding: 0;
+  font-family: "Abril Fatface", sans-serif;
 }
 
 a{
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover{
-    text-decoration: none;
-    color: #EB4B98;
+  text-decoration: none;
+  color: #EB4B98;
 }
 
 h2,
@@ -31,7 +30,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  background: #EB4B98;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -45,7 +44,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #0678e3;
+  background: #043565;
   color: #fff;
 }
 
@@ -71,7 +70,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #EB4B98;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -112,8 +111,8 @@ h6 {
 @media (max-width: 991px) {
   #header {
     width: 300px;
-    background: #fff;
-    border-right: 1px solid #e6e9ec;
+    background: #043565;
+    border-right: 1px solid #043565;
     left: -300px;
   }
 }
@@ -146,17 +145,16 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #45505b;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
   height: 56px;
   width: 100%;
   overflow: hidden;
   transition: 0.3s;
+  background: #F26DF9;
 }
 
 .nav-menu a i,
@@ -167,7 +165,6 @@ h6 {
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
-  color: #45505b;
 }
 
 @media (min-width: 992px) {
@@ -189,7 +186,6 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fff;
-  background: #0563bb;
 }
 
 .nav-menu a:hover span,
@@ -210,6 +206,15 @@ h6 {
   display: block;
 }
 
+.fa-solid .fa-house,
+.fa-solid .fa-face-smile,
+.fa-solid .fa-file,
+.fa-solid .fa-briefcase,
+.fa-solid .fa-list,
+.fa-solid .fa-envelope {
+  color: white;
+}
+
 /* MOBILE NAV */
 .mobile-nav-toggle {
   position: fixed;
@@ -225,6 +230,8 @@ h6 {
   cursor: pointer;
   border-radius: 50px;
   padding: 5px;
+  color: #F26DF9;
+  margin: 20px;
 }
 
 .mobile-nav-toggle i {
@@ -241,7 +248,6 @@ h6 {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #0563bb;
 }
 
 /* HERO */
@@ -261,7 +267,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: #5158BB;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -274,7 +280,9 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #F26DF9;
+  display: flex;
+  align-items: end;
 }
 
 #hero p {
@@ -296,7 +304,7 @@ h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #45505b;
+  color: #F26DF9;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
